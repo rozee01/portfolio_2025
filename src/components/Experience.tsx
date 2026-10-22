@@ -10,24 +10,36 @@ interface TimelineItem {
 const workData: TimelineItem[] = [
   {
     id: 1,
+    year: "September 2026 – Present",
+    title: "Freelance Software Engineer – Quantum Signals",
+    description: `Develop the QuantumSignals cookbook, a Dockerized live trading bot with a pluggable broker architecture. Extend the backtesting engine, and train and deploy production models across multiple futures markets.`,
+  },
+  {
+    id: 2,
+    year: "March 2026 – August 2026",
+    title: "Machine Learning Engineer Intern – Quantum Signals",
+    description: `Designed a regime-adaptive Sparse Mixture-of-Experts architecture for financial intraday futures signal generation, dynamically routing market data across specialized expert models. Built an automated end-to-end ML pipeline for regime detection, walk-forward training, out-of-sample evaluation, and model selection, enabling scalable experimentation and deployment.`,
+  },
+  {
+    id: 3,
     year: "July 2025 – August 2025",
     title: "Data Engineering Intern – Carbon Insights",
     description: `Built and optimized time series models to forecast carbon emissions across European industries for ETS compliance. Designed and implemented ETL data pipelines to process lreal-time data. Automated data workflows using AWS Lambda and managed storage with AWS S3.`,
   },
   {
-    id: 2,
+    id: 4,
     year: "September 2024 – June 2025",
     title: "Part-time AI/ML Developer – Welyne",
     description: `Developed a machine learning model to predict body measurements from basic user inputs (height, weight, age, sex) for the Weefizz platform. Built time series forecasting tools to anticipate wholesale clothing orders based on historical trends. Designed a matchmaking algorithm for WeHive to improve pairing between au pairs and families.`,
   },
   {
-    id: 3,
+    id: 5,
     year: "July 2024 – August 2024",
     title: "Web Development Intern – Welyne",
     description: `Created a backend tool to benchmark and analyze API performance under various workloads. Automated performance reporting, including metrics like latency, throughput, and error rates. Helped improve internal API stability and response time through iterative optimization.`,
   },
   {
-    id: 4,
+    id: 6,
     year: "February 2024 – May 2024",
     title: "Part-time Web Developer – Devnet",
     description: `Contributed to the development and maintenance of EDUMS, a web application for educational management. Implemented new features and improved UI components using HTML, CSS, JavaScript, and Laravel. Handled backend development tasks including database operations with MySQL.`,
